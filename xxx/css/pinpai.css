@@ -1,0 +1,142 @@
+html{
+    font-size: 50px;
+}
+body{
+    overflow-x: hidden;
+}
+/* 头部开始 */
+.title{
+    position: absolute;
+    width: 100%;
+    height: 1.6rem;
+    background: #fff;
+    z-index: 999;
+}
+.title>.logo{
+    margin-left: 0.5rem;
+    float: left;
+    margin-right: 8rem;
+}
+.title>.logo>a>img{
+    width: 1.5rem;
+}
+.title>.nav{
+    margin-top: 0.5rem;
+    position: relative;
+}
+.title>.nav>div{
+    float: left;
+    font-size: 0.5rem;
+    margin-right: 1rem;
+}
+.title>.bigNav{
+    float: right;
+    font-size: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+/* 内容开始 */
+.content{
+    top: 2rem;
+    position: relative;
+}
+.content>.one{
+    text-align: center;
+}
+.content>.one>h1{
+    margin-bottom: 1rem;
+}
+.content>.one>.profile>p{
+    font-size: 0.4rem;
+    font-family: '微軟正黑體', 'Microsoft JhengHei', 'MsJhengHei', \5FAE\8F6F\96C5\9ED1, sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer开始 */
+/* 左边开始 */
+.footer{
+    position: relative;
+    top: 2rem;
+    width: 100%;
+    /* background: #ff0; */
+    height: 11rem;
+}
+.footer>.fleft>div{
+    font-size: 0.4rem;
+    float: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.footer>.fleft>div>ul>li{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    color: #848484;
+    font-size: 0.3rem;
+}
+/* 右边开始 */
+.footer>.fright{
+    position: relative;
+    top: 1rem;
+    left: 4rem;
+}
+.footer>.fright>ul>.tou{
+    font-size: 0.4rem;
+    color: #000;
+}
+.footer>.fright>ul>li{
+    font-size: 0.3rem;
+    color: #848484;
+    margin-bottom: 0.4rem;
+}
+/* foot开始 */
+.footer>.ffoot{
+    text-align: center;
+    height: 1.5rem;
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+    font-size: 0.2rem;
+}
+.footer>.ffoot>ul>li{
+    margin-bottom: 0.1rem;
+    color: #848484;
+}
+
+
+
+
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 25px !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 26.75px !important;
+    }
+}
+@media only screen and (min-width: 500px){
+    html {
+        font-size: 20px !important; 
+    }
+}
+@media only screen and (min-width: 600px){
+    html {
+        font-size: 30px !important; 
+    }
+}
+@media only screen and (min-width: 800px){
+    html {
+        font-size: 45px !important; 
+    }
+}
